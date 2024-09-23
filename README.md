@@ -24,7 +24,6 @@ pip install matplotlib numpy
 ## Imports:
 import matplotlib.pyplot as plt: Imports the Matplotlib library for plotting.<br>
 import numpy as np: Imports NumPy for numerical operations.<br>
-from matplotlib.colors import LogNorm: Imports LogNorm for logarithmic normalization (though it's not used in the current code).<br>
 
 ## Grid Definition:
 dx, dy = 0.015, 0.05: Sets the resolution of the grid along the x and y axes.<br>
