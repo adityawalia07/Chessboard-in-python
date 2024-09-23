@@ -20,3 +20,29 @@ To run this code, make sure you have the required libraries installed. You can i
 
 ```bash
 pip install matplotlib numpy
+```
+## Imports:
+import matplotlib.pyplot as plt: Imports the Matplotlib library for plotting.
+import numpy as np: Imports NumPy for numerical operations.
+from matplotlib.colors import LogNorm: Imports LogNorm for logarithmic normalization (though it's not used in the current code).
+
+## Grid Definition:
+dx, dy = 0.015, 0.05: Sets the resolution of the grid along the x and y axes.
+x = np.arange(-4.0, 4.0, dx): Creates an array of x values from -4 to 4 with a step of dx.
+y = np.arange(-4.0, 4.0, dy): Creates an array of y values from -4 to 4 with a step of dy.
+X, Y = np.meshgrid(x, y): Generates a 2D grid of x and y values for plotting.
+
+## Chessboard Pattern:
+z1 = np.add.outer(range(8), range(8)) % 2: Creates an 8x8 chessboard pattern using modular arithmetic. The pattern alternates between 0s and 1s.
+plt.imshow(z1, cmap="binary_r", interpolation="nearest", extent=extent, alpha=1): Displays the chessboard pattern with a binary colormap, ensuring it covers the specified extent.
+
+## Custom Function:
+def chess(x, y):: Defines a custom function that takes x and y coordinates and returns a mathematical expression that combines polynomial terms and a Gaussian decay.
+z2 = chess(X, Y): Evaluates the custom function over the grid defined by X and Y.
+
+## Overlaying the Function:
+plt.imshow(z2, alpha=0.7, interpolation="bilinear", extent=extent): Overlays the output of the custom function on the chessboard pattern with some transparency.
+
+## Title and Display:
+plt.title("Chess Board with Python"): Sets the title of the plot.
+plt.show(): Renders the final plot.
