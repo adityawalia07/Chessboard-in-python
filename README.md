@@ -11,9 +11,9 @@ This Python script generates a graphical representation of a chessboard using ma
 ## Requirements
 
 - Python 3.x<br>
--The following Python libraries:<br>
-  -matplotlib<br>
-  -numpy
+- The following Python libraries:<br>
+  - matplotlib<br>
+  - numpy
 
 ## Installation
 
@@ -27,7 +27,7 @@ pip install matplotlib numpy
 
 ## Output
 
-The output will be a chessboard pattern overlaid with a smooth gradient function, displayed in a pop-up window.
+The output will be a chessboard pattern overlaid with a smooth gradient function, displayed in a pop-up window.<br>
 ![Screenshot 2024-10-06 155425](https://github.com/user-attachments/assets/cdb40414-2759-46df-9697-dec632b079b4)
 
 ## Code Overview
