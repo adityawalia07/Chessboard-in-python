@@ -1,49 +1,36 @@
-# Random Password Generator
+# Chessboard using Python
 
-This Python script generates a random password based on a user-defined length. It combines uppercase and lowercase letters, special characters, and numbers to create a secure password suitable for various applications.
+This Python script generates a graphical representation of a chessboard using matplotlib and numpy. It combines a basic chessboard pattern with a gradient effect overlay for a visually appealing result.
 
 ## Features
 
-- Generates random passwords of specified lengths.
-- Uses a diverse character set, including:
-  - Uppercase letters (A-Z)
-  - Lowercase letters (a-z)
-  - Special characters (!@#$%&*)
-  - Numbers (0-9)
+-Creates an 8x8 chessboard pattern.
+-Overlays a smooth mathematical function for aesthetic purposes.
+-Utilizes matplotlib for visualization and numpy for numerical operations.
 
 ## Requirements
 
 - Python 3.x
+-The following Python libraries:
+  -matplotlib
+  -numpy
 
 ## Installation
 
-To run this script, ensure you have Python installed on your system.
+To run this script, you need to have Python and the required libraries installed.
 
-## Usage
+### Install the required libraries using pip:
 
-1. Clone the repository:
-
-    ```bash
-    git clone https://github.com/yourusername/random-password-generator.git
-    ```
-
-2. Navigate to the project directory:
-
-    ```bash
-    cd random-password-generator
-    ```
-
-3. Run the script:
-
-    ```bash
-    python password_generator.py
-    ```
-
-4. When prompted, enter the desired password length.
+```bash
+pip install matplotlib numpy
+```
 
 ## Example
 
-```bash
-Enter Password length: 12
-Generated password: A1b!C3d$E4
-```
+The output will be a chessboard pattern overlaid with a smooth gradient function, displayed in a pop-up window.
+![Screenshot 2024-10-06 155425](https://github.com/user-attachments/assets/cdb40414-2759-46df-9697-dec632b079b4)
+
+### Code Overview
+-Chessboard Pattern: The chessboard is created using the numpy.add.outer function, which generates alternating values of 0 and 1 for the 8x8 grid.<br>
+-Overlay: The chess function adds a mathematical gradient over the chessboard using a combination of polynomial and exponential functions.<br>
+-Visualization: matplotlib.imshow is used to render the chessboard and overlay the gradient.<br>
