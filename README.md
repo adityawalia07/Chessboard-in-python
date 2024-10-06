@@ -10,9 +10,9 @@ This Python script generates a graphical representation of a chessboard using ma
 
 ## Requirements
 
-- Python 3.x
--The following Python libraries:
-  -matplotlib
+- Python 3.x<br>
+-The following Python libraries:<br>
+  -matplotlib<br>
   -numpy
 
 ## Installation
@@ -25,12 +25,12 @@ To run this script, you need to have Python and the required libraries installed
 pip install matplotlib numpy
 ```
 
-## Example
+## Output
 
 The output will be a chessboard pattern overlaid with a smooth gradient function, displayed in a pop-up window.
 ![Screenshot 2024-10-06 155425](https://github.com/user-attachments/assets/cdb40414-2759-46df-9697-dec632b079b4)
 
-### Code Overview
--Chessboard Pattern: The chessboard is created using the numpy.add.outer function, which generates alternating values of 0 and 1 for the 8x8 grid.<br>
--Overlay: The chess function adds a mathematical gradient over the chessboard using a combination of polynomial and exponential functions.<br>
--Visualization: matplotlib.imshow is used to render the chessboard and overlay the gradient.<br>
+## Code Overview
+-Chessboard Pattern: The chessboard is created using the numpy.add.outer function, which generates alternating values of 0 and 1 for the 8x8 grid.<br><br>
+-Overlay: The chess function adds a mathematical gradient over the chessboard using a combination of polynomial and exponential functions.<br><br>
+-Visualization: matplotlib.imshow is used to render the chessboard and overlay the gradient.<br><br>
