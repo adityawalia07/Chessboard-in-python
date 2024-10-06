@@ -4,9 +4,9 @@ This Python script generates a graphical representation of a chessboard using ma
 
 ## Features
 
-- Creates an 8x8 chessboard pattern.<br><br>
-- Overlays a smooth mathematical function for aesthetic purposes.<br><br>
-- Utilizes matplotlib for visualization and numpy for numerical operations.<br><br>
+- Creates an 8x8 chessboard pattern.<br>
+- Overlays a smooth mathematical function for aesthetic purposes.<br>
+- Utilizes matplotlib for visualization and numpy for numerical operations.<br>
 
 ## Requirements
 
