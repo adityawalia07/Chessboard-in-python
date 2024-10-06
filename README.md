@@ -27,7 +27,7 @@ pip install matplotlib numpy
 
 ## Output
 
-The output will be a chessboard pattern overlaid with a smooth gradient function, displayed in a pop-up window.<br>
+The output will be a chessboard pattern overlaid with a smooth gradient function, displayed in a pop-up window.<br><br>
 ![Screenshot 2024-10-06 155425](https://github.com/user-attachments/assets/cdb40414-2759-46df-9697-dec632b079b4)
 
 ## Code Overview
